@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comparação</title>
+</head>
+<body>
+    <input id="a1"> == <input id="b1">
+    <button onclick="comparar(1)">comparar</button><br>
+
+    <input id="a2"> != <input id="b2">
+    <button onclick="diferente(2)">comparar</button><br>
+
+     <input id="a3"> > <input id="b3">
+    <button onclick="maior(3)">comparar</button><br>
+
+     <input id="a4"> >= <input id="b4">
+    <button onclick="maiorigual(4)">comparar</button><br>
+
+     <input id="a5"> < <input id="b5">
+    <button onclick="menor(5)">comparar</button><br>
+
+     <input id="a6"> <= <input id="b6">
+    <button onclick="menorigual(6)">comparar</button><br>
+
+    <script>
+
+function igual() {
+    alert (Number(a1.value) == Number(b1.value) ? "VERDADEIRO":"FALSO");
+}
+
+function diferente() {
+    alert (Number(a2.value) != Number(b2.value) ? "VERDADEIRO":"FALSO");
+}
+
+function maior() {
+    alert (Number(a3.value) > Number(b3.value) ? "VERDADEIRO":"FALSO");
+}
+
+function maiorigual() {
+    alert (Number(a4.value) >= Number(b4.value) ? "VERDADEIRO":"FALSO");
+}
+
+function menor() {
+    alert (Number(a5.value) < Number(b5.value) ? "VERDADEIRO":"FALSO");
+}
+
+function menorigual() {
+    alert (Number(a6.value) <= Number(b6.value) ? "VERDADEIRO":"FALSO");
+}
+    </script>
+    
+</body>
+</html>
